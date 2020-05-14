@@ -47,6 +47,9 @@
                                 <rect key="frame" x="309" y="796" width="92" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="アップロード"/>
+                                <connections>
+                                    <action selector="onTappedUploadButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="nQe-BZ-h4B"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Kq-dS-gDg">
                                 <rect key="frame" x="202" y="796" width="92" height="30"/>
